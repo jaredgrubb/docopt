@@ -603,7 +603,7 @@ $ prog -vvvvvv
 
 r"""Usage: prog [-v | -vv | -vvv]
 
-This one is probably most readable user-friednly variant.
+This one is probably most readable user-friendly variant.
 
 """
 $ prog
@@ -819,7 +819,7 @@ $ prog --long one --long two
 #
 
 r"""usage: prog (go <direction> --speed=<km/h>)..."""
-$ prog  go left --speed=5  go right --speed=9
+$ prog go left --speed=5  go right --speed=9
 {"go": 2, "<direction>": ["left", "right"], "--speed": ["5", "9"]}
 
 #
